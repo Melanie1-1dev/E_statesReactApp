@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo_svg from '../../assets/logo_dark.svg'
-import header from '../../assets/header_img.png'
+
 const Navbar = () => {
   return (
     <div className='navbar'>

@@ -77,7 +77,7 @@ ul{
     color: #fff;
     font-size: 60px;
     font-weight: 800;
-    animation-name: myAnimation;
+    animation: fadeIn 3s ease-in-out forwards infinite;
 }
 
 .header-text button{
@@ -103,7 +103,3 @@ transition-delay: 0.5s;
     text-decoration-color: orangered;
 }
 
-@keyframes myAnimation {
-    from{display: none;}
-    to{display: block;}
-}
