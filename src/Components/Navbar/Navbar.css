@@ -77,6 +77,7 @@ ul{
     color: #fff;
     font-size: 60px;
     font-weight: 800;
+    animation-name: myAnimation;
 }
 
 .header-text button{
@@ -100,4 +101,9 @@ transition-delay: 0.5s;
     color: greenyellow;
     text-decoration-line: underline;
     text-decoration-color: orangered;
+}
+
+@keyframes myAnimation {
+    from{display: none;}
+    to{display: block;}
 }
