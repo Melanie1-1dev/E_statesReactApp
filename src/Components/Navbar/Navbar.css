@@ -3,3 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+.imag-nav img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../assets/header_img.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.navbar{
+   margin-top: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar ul li{
+    margin-bottom: 40px;
+    font-size: x-large;
+    align-items: center;
+    margin: auto 30px;
+    gap: 80px;
+
+}
+ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.navbar .sign-btn{
+    margin-left: 60px;
+    border-radius: 30px;
+    color: #000;
+    background: #fff;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.header-text{
+    display: block;
+    margin-top: 200px;
+    text-align: center;
+}
+.header-text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.header-text button{
+margin: 30px 10px;
+padding: 10px 25px;
+border-radius: 13px;
+color: #fff;
+background: transparent;
+border: 2px 1px solid wheat;
+}
