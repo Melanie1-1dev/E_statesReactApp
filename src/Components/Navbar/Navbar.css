@@ -15,13 +15,26 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
     z-index: -1;
 }
 
 .navbar{
-   margin-top: 0px;
+    min-height: 100vh;
+    margin: auto;
+     margin-top: 0px;
+     align-items: center;
+     justify-content: space-around;
+     float: 1;
+}
+
+nav{
+    display: flex;
     align-items: center;
-    justify-content: space-around;
+    padding: 2% 6%;
+    justify-content: space-between;
+
 }
 
 ul{
@@ -37,18 +50,19 @@ ul{
     gap: 80px;
 
 }
-ul li a{
+.navbar ul li a{
     text-decoration: none;
     align-items: center;
     color: aliceblue;
     cursor: pointer;
+    transition: 0.4s;
 
 }
 
 .navbar .sign-btn{
     margin-left: 60px;
     border-radius: 30px;
-    color: #000;
+    color: #680505;
     background: #fff;
     padding: 10px 40px;
     cursor: pointer;
@@ -72,4 +86,18 @@ border-radius: 13px;
 color: #fff;
 background: transparent;
 border: 2px 1px solid wheat;
+transition: 0.9s;
+transition-delay: 0.5s;
+}
+.header-text button:hover{
+    transform: translateX(20px);
+    color: antiquewhite;
+    color: #000;
+    background: blue;
+}
+
+.navbar ul li a:hover{
+    color: greenyellow;
+    text-decoration-line: underline;
+    text-decoration-color: orangered;
 }
