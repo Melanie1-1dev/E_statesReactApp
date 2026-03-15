@@ -13,7 +13,7 @@ const Projects = () => {
       </div>
       <div className="projects-grid">
         {Data.map((Data, index) => (
-          <ProjectCard key={index} {...project} />
+          <ProjectCard key={index} {...Data} />
         ))}
       </div>   
       
