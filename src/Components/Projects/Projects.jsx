@@ -1,11 +1,11 @@
 import React from 'react'
 import './Projects.css'
-import project_1 from '../../assets/project_img_1.png'
-import project_2 from '../../assets/project_img_2.png'
-import project_3 from '../../assets/project_img_3.png'
-import project_4 from '../../assets/project_img_4.png'
-import project_5 from '../../assets/project_img_5.png'
-import project_6 from '../../assets/project_img_6.png'
+import project_1 from '../../assets/project_img_1.jpg'
+import project_2 from '../../assets/project_img_2.jpg'
+import project_3 from '../../assets/project_img_3.jpg'
+import project_4 from '../../assets/project_img_4.jpg'
+import project_5 from '../../assets/project_img_5.jpg'
+import project_6 from '../../assets/project_img_6.jpg'
 
 
 const Projects = () => {
