@@ -5,5 +5,15 @@
     box-sizing: border-box;
 }
 .projects{
-    background: #f7f7f7;
-}
+    background: #f8f1f1;
+    width: 100%;
+    min-height: 100vh;
+ }
+
+ .container{
+    text-align: center;
+
+ }
+ .container h1{
+ }
+
