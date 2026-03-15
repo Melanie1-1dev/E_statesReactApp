@@ -1,6 +1,7 @@
 import React from 'react'
 import './Section2.css'
 import brand_img from '../../assets/brand_img.png'
+import Projects from '../Projects/Projects'
 
 const Section2 = () => {
   return (
@@ -44,7 +45,6 @@ const Section2 = () => {
                  </div>
         </div>
 
-      
     </div>
   )
 }
