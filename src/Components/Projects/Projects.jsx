@@ -7,15 +7,23 @@ import right_arrow from "../../assets/right_arrow.svg"
 import './Projects.css'
 
 const Projects = () => {
-  const scrollRef = useRef(null);
+  const slider = useRef();
 
-  const scrollLeft = () =>{
-    scrollRef.current.scrollBy({left:-300, behavior: "smooth"});
-  };
+  let tx = 0;
+  const slideForward = () =>{
+    if(tx > -50){
+      tx -= 25;
+    }
+    slider.current.style.transform = `transformX(${tx}%)`;
 
-  const scrollRight = () => {
-    scrollRef.current.scrollBy({right:300, behavior: "smooth"});
-  };
+  }
+
+  const slideLeft = () =>{
+    if(tx < 0){
+      tx +=25;
+    }
+    slider.current.style.transform = `transformX(${tx}%)`;
+  }
 
   return (
     <section className='projects'>
@@ -25,8 +33,8 @@ const Projects = () => {
       </div>
 
       <div className="scroll-arrows">
-     <button onClick={scrollLeft} ><img src={left_arrow} alt="" /></button>
-     <button onClick={scrollRight} ><img src={right_arrow} alt="" /></button>
+     <button><img src={left_arrow} alt=""  className='arrows' onClick={slideBackward} /></button>
+     <button><img src={right_arrow} alt="" className='arrows'  onClick={slideLeft} /></button>
       </div>
       <div className="projects-grid projects-scroll" ref={scroll}> 
         {Data.map((Project, index) => (
