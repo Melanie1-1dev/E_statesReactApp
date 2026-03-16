@@ -1,14 +1,14 @@
 const Projects = [
 {
     name: "Vista Verde",
-    locaton: "$250,000",
+    location: "Vista Verde",
     price: "$250,000",
     image: "/assets/project_img_1.jpg"
 },
 {
     name: "Serenity Suites",
-    location: "$250,000",
-    price: "Chicango",
+    location: "Chicago",
+    price: "$250,000",
     image: "/assets/project_img_2.jpg"
 },
 {
@@ -21,7 +21,7 @@ const Projects = [
     name: "Central Square",
     location: "Los Angeles",
     price: "$2,500,000",
-    image: "project_img_4.jpg"
+    image: "/assets/project_img_4.jpg"
 },
 {
     name: "Vista Verde",
@@ -38,4 +38,4 @@ const Projects = [
 
 ];
 
-export default Data;
+export default Projects;

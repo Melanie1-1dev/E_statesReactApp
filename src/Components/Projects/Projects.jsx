@@ -1,6 +1,6 @@
 import React from 'react'
 import Data from "../../Data/Data"
-import ProjectsCard from "./Projects";
+import ProjectCard from "./ProjectCard"
 
 import './Projects.css'
 
@@ -12,8 +12,8 @@ const Projects = () => {
         <p>Crafting spaces, Building legacles-Explore <br /> Our Portfolio</p>
       </div>
       <div className="projects-grid">
-        {Data.map((Data, index) => (
-          <ProjectCard key={index} {...Data} />
+        {Projects.map((Data, index) => (
+          <ProjectCard key={index} {...Projects} />
         ))}
       </div>   
       

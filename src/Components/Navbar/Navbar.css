@@ -16,7 +16,6 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    position: absolute;
     z-index: -1;
 }
 
@@ -86,7 +85,7 @@ padding: 10px 25px;
 border-radius: 13px;
 color: #fff;
 background: transparent;
-border: 2px 1px solid wheat;
+border: 1px solid wheat;
 transition: 0.9s;
 transition-delay: 0.5s;
 }

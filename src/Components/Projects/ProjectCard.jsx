@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-const projectsCard = ({ name, location, price, image }) => {
+const ProjectCard = ({ name, location, price, image }) => {
   return (
     <div className='project-card'>
         <img src={image} alt={name} className='project_image'/>
@@ -11,4 +11,4 @@ const projectsCard = ({ name, location, price, image }) => {
   );
 }
 
-export default projectsCard
+export default ProjectCard
