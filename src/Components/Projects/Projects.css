@@ -14,5 +14,33 @@
     text-align: center;
 
  }
+
+ .projects{
+    background: #f8f1f1;
+    width: 100%;
+    min-height: 100vh;
+ }
+ .projects-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 2rem;
+ }
+ .project-card {
+    width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 10%;
+  border-radius: 6px;
+}
  
 

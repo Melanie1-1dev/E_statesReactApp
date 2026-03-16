@@ -12,8 +12,8 @@ const Projects = () => {
         <p>Crafting spaces, Building legacles-Explore <br /> Our Portfolio</p>
       </div>
       <div className="projects-grid">
-        {Projects.map((Data, index) => (
-          <ProjectCard key={index} {...Projects} />
+        {Data.map((Project, index) => (
+          <ProjectCard key={index} {...Project} />
         ))}
       </div>   
       
