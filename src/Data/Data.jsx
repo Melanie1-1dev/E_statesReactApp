@@ -12,37 +12,44 @@ const Projects = [
     name: "Vista Verde",
     location: "Vista Verde",
     price: "$250,000",
-    image: project1
+    image: project1,
+    visible: true
 },
 {
     name: "Serenity Suites",
     location: "Chicago",
     price: "$250,000",
-    image: project2 
+    image: project2,
+    visible: true 
+
 },
 {
     name: "Skyline Haven",
     location: "California",
     price: "$250,000",
-    image: project3
+    image: project3,
+    visible: true
 },
 {
     name: "Central Square",
     location: "Los Angeles",
     price: "$2,500,000",
-    image: project4
+    image: project4,
+    visible: false
 },
 {
     name: "Modern department",
     location: "San Francisco",
     price: "$2,500,000",
-    image: project5
+    image: project5,
+    visible: false
 },
 {
     name: "Central square",
     location: "Kigali",
     price: "$3,000,000",
-    image: project6
+    image: project6,
+    visible: false
 }
 
 ];
