@@ -1,40 +1,48 @@
+import React from "react";
+import project1 from "../assets/project_img_1.jpg"
+import project2 from "../assets/project_img_2.jpg"
+import project3 from "../assets/project_img_3.jpg"
+import project4 from "../assets/project_img_4.jpg"
+import project5 from "../assets/project_img_5.jpg"
+import project6 from "../assets/project_img_6.jpg"
+
 
 const Projects = [
 {
     name: "Vista Verde",
     location: "Vista Verde",
     price: "$250,000",
-    image: "../assets/project_img_1.jpg"
+    image: project1
 },
 {
     name: "Serenity Suites",
     location: "Chicago",
     price: "$250,000",
-    image: "../assets/project_img_2.jpg"
+    image: project2 
 },
 {
     name: "Skyline Haven",
     location: "California",
     price: "$250,000",
-    image: "../assets/project_img_3.jpg"
+    image: project3
 },
 {
     name: "Central Square",
     location: "Los Angeles",
     price: "$2,500,000",
-    image: "../assets/project_img_4.jpg"
+    image: project4
 },
 {
     name: "Modern department",
     location: "San Francisco",
     price: "$2,500,000",
-    image: "../assets/project_img_5.jpg"
+    image: project5
 },
 {
     name: "Central square",
     location: "Kigali",
     price: "$3,000,000",
-    image: "../assets/project_img_6.jpg"
+    image: project6
 }
 
 ];
