@@ -28,7 +28,7 @@ const Projects = () => {
      <button onClick={scrollLeft} ><img src={left_arrow} alt="" /></button>
      <button><img src={right_arrow} alt="" /></button>
       </div>
-      <div className="projects-grid projects-scroll" ref={scroll}> 
+      <div className="projects-grid projects-scroll" ref={scrollRef}> 
         {Data.map((Project, index) => (
           <ProjectCard key={index} {...Project} />
         ))}
