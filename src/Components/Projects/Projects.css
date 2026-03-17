@@ -12,7 +12,6 @@
 
  .container{
     text-align: center;
-
  }
 
  .scroll-arrows{
@@ -40,6 +39,7 @@
  }
 
  .projects-grid img{
+  cursor: pointer;
   border-radius: 10px;
     object-fit: cover;
     align-items: center;
