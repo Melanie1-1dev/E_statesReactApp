@@ -34,9 +34,14 @@
 
 .field{
     padding: 15px;
+    label{
+        text-align: start;
+        position: relative;    
+        color: #555;
+    }
 }
 input{
-    padding: 9px 20px;
+    padding: 9px 60px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px;
@@ -50,11 +55,16 @@ input:focus, textarea:focus{
 .flex{
     display: flex;
     margin: 40px;
-    margin-left: 450px;
+    margin-left: 350px;
 
 }
 .flex input{
     flex: 1;
+}
+.flex1{
+    label{
+        color: #555;
+    }
 }
 button{
     padding: 7px 12px;

@@ -13,13 +13,13 @@ const Contact = () => {
               <form action="#">
                 <div className="flex">
                   <div className="field">
-                  Your Name:
+                 <label>Your Name:</label>
                   <br />
                 <input type="text" name='name' placeholder='Your name' required/><br />
                 </div>
                 <div className='field'>
 
-                Your Email:
+                <label>Your Email:</label>
                 <br />
                 <input type="email" name='email' placeholder='Your email' required/><br />
                 </div>
@@ -27,7 +27,7 @@ const Contact = () => {
             <div className="flex1">
             
                 <label>Message:</label><br />
-                <textarea name="message" id="message" placeholder='Message' rows="9" cols="80"></textarea>
+                <textarea name="message" id="message" placeholder='Message' rows="9" cols="90"></textarea>
                 <br />
                 </div>
                 <button>Send message</button>
