@@ -14,6 +14,7 @@ const Testimonials = () => {
             <div className="images">
               <img src={profile_1} alt="" />
               <h3>Donald Jackman</h3>
+              <p>⭐⭐⭐⭐⭐</p>
               <span>Marketing Manager</span>
               <p>Fromthe very first meeting they understand my 
                 vision and helped me find the perfect property.
@@ -25,6 +26,7 @@ const Testimonials = () => {
             <div className="images">
               <img src={profile_2} alt="" />
               <h3>Richard Nelson</h3>
+              <p>⭐⭐⭐⭐⭐</p>
               <span>UI/UX Designer</span>
               <p>Fromthe very first meeting they understand my 
                 vision and helped me find the perfect property.
@@ -36,6 +38,7 @@ const Testimonials = () => {
             <div className="images">
               <img src={profile_3} alt="" />
               <h3>James Washington</h3>
+              <p>⭐⭐⭐⭐⭐</p>
               <span>Co-Founder</span>
               <p>Fromthe very first meeting they understand my 
                 vision and helped me find the perfect property.

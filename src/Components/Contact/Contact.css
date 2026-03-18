@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-us{
+    background: #fff;
+}
+.container{
+    p{
+        text-transform: capitalize;
+    }
+}
