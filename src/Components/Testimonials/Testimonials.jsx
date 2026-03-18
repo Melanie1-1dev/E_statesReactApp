@@ -1,6 +1,8 @@
 import React from 'react'
 import './Testimonials.css'
 import profile_1 from '../../assets/profile_img_1.png';
+import profile_2 from '../../assets/profile_img_2.png';
+import profile_3 from '../../assets/profile_img_3.png';
 
 const Testimonials = () => {
   return (
@@ -24,7 +26,7 @@ const Testimonials = () => {
             <div className="images">
               <img src={profile_2} alt="" />
               <h3>Richard Nelson</h3>
-              <span>Marketing Manager</span>
+              <span>UI/UX Designer</span>
               <p>Fromthe very first meeting they understand my 
                 vision and helped me find the perfect property.
                 Their attention to detail and commitment to 
@@ -34,8 +36,8 @@ const Testimonials = () => {
 
             <div className="images">
               <img src={profile_3} alt="" />
-              <h3>Donald Jackman</h3>
-              <span>Marketing Manager</span>
+              <h3>James Washington</h3>
+              <span>Co-Founder</span>
               <p>Fromthe very first meeting they understand my 
                 vision and helped me find the perfect property.
                 Their attention to detail and commitment to 
