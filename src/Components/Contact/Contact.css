@@ -12,7 +12,7 @@
         margin-bottom: 20px;
         text-transform: capitalize;
         span{
-            color: gray;
+            color: #555;
             font-weight: 100;
             text-decoration: underline;
         }
@@ -32,4 +32,22 @@
 }
 input{
     padding: 5px 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #fff;
 }
+input:focus, textarea:focus{
+    border-color: #000;
+    outline: none;
+}
+
+.flex{
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+}
+.flex input{
+    flex: 1;
+}
+

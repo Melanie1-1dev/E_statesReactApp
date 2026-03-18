@@ -12,16 +12,20 @@ const Contact = () => {
             <div className="form">
               <form action="#">
                 <div className="flex">
-                  <label>Your Name </label><br />
-                <input type="text" name='name' placeholder='Your name'/><br />
-                <label>Your Email</label><br />
+                  <label>Your Name: </label><br />
+                <input type="text" name='name' placeholder='Your name' required/><br />
+                <label>Your Email:</label><br />
 
-                <input type="email" name='email' placeholder='Your email'/><br />
-                <label>Message</label><br />
+                <input type="email" name='email' placeholder='Your email' required/><br />
                 </div>
-                <textarea name="message" id="" placeholder='Message'></textarea>
+            <div className="flex1">
+            
+                <label>Message:</label><br />
+                <textarea name="message" id="message" placeholder='Message' rows="9" cols="80"></textarea>
                 <br />
+                </div>
                 <button>Send message</button>
+                
               </form>
             </div>
         </div>
