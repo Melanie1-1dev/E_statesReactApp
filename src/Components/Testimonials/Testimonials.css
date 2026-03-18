@@ -35,7 +35,8 @@
     cursor: pointer;
 
     span{
-        color: gray;
+        color: rgb(31, 2, 2);
+        font-weight: 900;
 
     }
     

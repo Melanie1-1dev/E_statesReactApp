@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background: #0f0c27;
+    width: 100%;
+    height: 50vh;
+    padding: 35px;
+}
