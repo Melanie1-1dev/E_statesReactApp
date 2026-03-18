@@ -11,12 +11,17 @@ const Contact = () => {
 
             <div className="form">
               <form action="#">
-                <label>Your Name </label><br />
-                <input type="text" name='name'/><br />
+                <div className="flex">
+                  <label>Your Name </label><br />
+                <input type="text" name='name' placeholder='Your name'/><br />
                 <label>Your Email</label><br />
-                <input type="email" name='email'/><br />
+
+                <input type="email" name='email' placeholder='Your email'/><br />
                 <label>Message</label><br />
-                <textarea name="message" id=""></textarea>
+                </div>
+                <textarea name="message" id="" placeholder='Message'></textarea>
+                <br />
+                <button>Send message</button>
               </form>
             </div>
         </div>
