@@ -7,11 +7,10 @@ import profile_3 from '../../assets/profile_img_3.png';
 const Testimonials = () => {
   return (
     <div className='testimonials'>
-        <div className="container">
             <h1>Customer <span>Testimonials</span></h1>
 
             <p>Real stories from Those Who Found Home <br />with Us</p>
-
+          <div className="images-row">
             <div className="images">
               <img src={profile_1} alt="" />
               <h3>Donald Jackman</h3>
@@ -44,9 +43,7 @@ const Testimonials = () => {
                 client satisfication is unmatched.
               </p>
             </div>
-            
-        </div>
-
+            </div>
       
     </div>
   )
