@@ -13,7 +13,7 @@
 .container1{
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    padding: 55px;
 }
 .content{
     width: 100%;
@@ -48,6 +48,7 @@ input{
         background: rgb(28, 28, 59);
         color: #fff;
         border: none;
+
     }
 
     button{
@@ -56,6 +57,20 @@ input{
         padding: 10px 20px;
     }
 
-    .submtt{
-        
+    .submitt{
+        display: flex;        
+
     }
+    .foot p{
+        color: aqua;
+        transition: .5s;
+        scale: 2;
+        font-size: small;
+        font-weight: 800;
+    }
+
+    .foot p:hover{
+        text-shadow: 5px 4px 5px #fff;
+        transform: translateX(12px);
+    }
+
