@@ -9,3 +9,53 @@
     height: 50vh;
     padding: 35px;
 }
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    h3{
+        color: #fff;
+        padding: 10px;
+    }
+    ul{
+        display: inline-block;
+        font-weight: bolder;
+        
+    }
+    ul li{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    ul li a{
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 100;
+
+    }
+    
+}
+
+input{
+        background: rgb(28, 28, 59);
+        color: #fff;
+        border: none;
+    }
+
+    button{
+        color: #555;
+        background: rgb(99, 99, 247);
+        padding: 10px 20px;
+    }
+
+    .submtt{
+        
+    }

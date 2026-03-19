@@ -4,7 +4,7 @@ import logo_svg from '../../assets/logo_dark.svg'
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className="container">
+        <div className="container1">
             <div className="content">
                 <img src={logo_svg} alt="" />
                 <p>Lorem, ipsum dolor sit amet consectetur 
@@ -26,18 +26,21 @@ const Footer = () => {
             </div>
             <div className="content">
                 <h3>Subscribe to outnewsLetter</h3>
-                <p>The latest articles, news and resources sent
+                <p>The latest articles, news and resources <br /> sent
                     to you inbox weekly.
                 </p>
-                <input type="email" name='Email' placeholder='Enter your email'/>
+                <div className="submitt">
+                    <input type="email" name='Email' placeholder='Enter your email'/>
                 <br />
-                <button>Subscribe</button>
+                <button>Subscribe</button> 
+                </div>
                 
             </div>
-            <hr />
-            <p>Copyright 2026 &copy; einaleM. All Rights are Reserved!</p>
+           
 
         </div>
+         <hr />
+            <p>Copyright 2026 &copy; einaleM. All Rights are Reserved!</p>
       
     </div>
   )
