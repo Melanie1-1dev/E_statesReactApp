@@ -38,16 +38,18 @@
     label{
         text-align: start;
         position: relative;    
-        color: #555;
+        color: #8e5f5f;
     }
-}
-input{
+    input{
     padding: 9px 60px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px;
     background: #fff;
 }
+    
+}
+
 input:focus, textarea:focus{
     border-color: #000;
     outline: none;
