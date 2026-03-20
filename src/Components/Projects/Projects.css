@@ -19,8 +19,9 @@
   cursor: pointer;
  }
  .scroll-arrows button{
+  justify-content: right;
   border-radius: 60%;
-  background: rgb(232, 148, 232);
+  background: rgb(241, 195, 241);
   cursor: pointer;
   
  }
