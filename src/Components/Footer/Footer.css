@@ -59,7 +59,13 @@ input{
     }
 
     .submitt{
-        display: flex;        
+        display: flex;    
+        
+        input{
+            padding: 2px 40px;
+            color: #fff;
+            background: rgb(47, 47, 104);
+        }
 
     }
     .foot p{
