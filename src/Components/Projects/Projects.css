@@ -87,5 +87,12 @@
 .projects-scroll::-webkit-scrollbar {
   display: none; /* hide scrollbar */
 }
+
+@media(max-width: 768px){
+  .projects-grid{
+    width: 100%;
+    flex-direction: column;
+  }
+}
  
 
