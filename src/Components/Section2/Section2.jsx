@@ -11,7 +11,7 @@ const Section2 = () => {
         <p>Passionate About Properties, 
             Dedicated to <br /> Your Vision</p>
         </div>
-        
+                
         <div className="float-item">
             <div className="about-imag">
             <img src={brand_img} alt="" />
