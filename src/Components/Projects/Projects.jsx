@@ -14,7 +14,7 @@ const Projects = () => {
   };
 
   const scrollRight = () => {
-    scrollRef.current.scrollBy({right:300, behavior: "smooth"});
+    scrollRef.current.scrollBy({left:300, behavior: "smooth"});
   };
 
   return (
@@ -26,7 +26,7 @@ const Projects = () => {
 
       <div className="scroll-arrows">
      <button onClick={scrollLeft} ><img src={left_arrow} alt="" /></button>
-     <button><img src={right_arrow} alt="" /></button>
+     <button onClick={scrollRight}><img src={right_arrow} alt="" /></button>
       </div>
       <div className="projects-grid projects-scroll" ref={scrollRef}> 
         {Data.map((Project, index) => (
