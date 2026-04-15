@@ -16,7 +16,7 @@ const Testimonials = () => {
               <h3>Donald Jackman</h3>
               <p>⭐⭐⭐⭐⭐</p>
               <span>Marketing Manager</span>
-              <p>Fromthe very first meeting they understand my 
+              <p>From the very first meeting they understand my 
                 vision and helped me find the perfect property.
                 Their attention to detail and commitment to 
                 client satisfication is unmatched.
@@ -28,7 +28,7 @@ const Testimonials = () => {
               <h3>Richard Nelson</h3>
               <p>⭐⭐⭐⭐⭐</p>
               <span>UI/UX Designer</span>
-              <p>Fromthe very first meeting they understand my 
+              <p>From the very first meeting they understand my 
                 vision and helped me find the perfect property.
                 Their attention to detail and commitment to 
                 client satisfication is unmatched.
@@ -40,7 +40,7 @@ const Testimonials = () => {
               <h3>James Washington</h3>
               <p>⭐⭐⭐⭐⭐</p>
               <span>Co-Founder</span>
-              <p>Fromthe very first meeting they understand my 
+              <p>From the very first meeting they understand my 
                 vision and helped me find the perfect property.
                 Their attention to detail and commitment to 
                 client satisfication is unmatched.
