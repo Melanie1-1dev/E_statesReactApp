@@ -51,12 +51,15 @@
     margin: 10px;
 }
 
-@media  screen and (min-width: 497px) {
+@media  screen and (max-width: 497px) {
     .images-row{
         margin: auto;
         align-items: center;
         flex: 50%;
+        max-width: 100%;
+        flex-wrap: wrap;
         flex-direction: column;
+    
     }
     
 }
