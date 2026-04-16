@@ -86,3 +86,28 @@
     font-size: large;
 }
 
+
+@media screen  and (max-width: 768px) {
+    .float-item{
+        flex-direction: column;
+        min-height: auto;
+    }
+    .about-imag{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .about-imag img{
+        margin: auto;
+        width: 80%;
+        height: 400px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .text-flex{
+        width: 100%;
+        padding: 20px;
+    }
+
+}

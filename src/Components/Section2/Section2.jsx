@@ -16,6 +16,7 @@ const Section2 = () => {
             <div className="about-imag">
             <img src={brand_img} alt="" />
             </div>
+            
             <div className="flex-col">
                 <div className='text-flex'>
             <div className="text-in">
