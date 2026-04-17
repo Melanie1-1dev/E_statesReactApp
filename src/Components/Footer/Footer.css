@@ -93,9 +93,10 @@ input{
             flex-direction: column;
         }
         .foot{
+            display: block;
             overflow-y: hidden;
             width: 100%;
-            font-size: 16px;
+            font-size: 6px;
             align-items: center;
             justify-content: center;
         }
