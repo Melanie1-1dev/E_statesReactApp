@@ -7,6 +7,19 @@
     width: 100px;
     height: 100px;
 }
+
+.menu-icon{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .menu-icon{
+        display: block;
+    }
+    
+}
+
 body{
     position: relative;
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../assets/header_img.png");
@@ -100,6 +113,7 @@ transition-delay: 0.5s;
     background: blue;
 }
 
+
 .navbar ul li a:hover{
     color: greenyellow;
     text-decoration-line: underline;
@@ -151,7 +165,7 @@ transition-delay: 0.5s;
     ul{
         flex-direction: column;
         width: 100%;
-        text-align: center;
+        align-items: left;
     }
 
     .header-text{

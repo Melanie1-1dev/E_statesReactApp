@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import logo_svg from '../../assets/logo_dark.svg'
 
 const Navbar = () => {
+
+    const {menuOpen, setMenuOpen} = useState(false);
   return (
     <div className='navbar'>
         <nav>
@@ -10,6 +12,8 @@ const Navbar = () => {
             <img src={logo_svg} alt="" />
             
         </div>
+
+        <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}> ☰ </div>
 
         <ul>
             <li><a href="#">Home</a></li>
