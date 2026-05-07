@@ -61,10 +61,14 @@ ul{
 .navbar .sign-btn{
     margin-left: 60px;
     border-radius: 30px;
-    color: #680505;
+    color: #051468;
     background: #fff;
     padding: 10px 40px;
     cursor: pointer;
+    a{
+    color: #2c3777;
+
+    }
 }
 
 .header-text{
@@ -100,5 +104,79 @@ transition-delay: 0.5s;
     color: greenyellow;
     text-decoration-line: underline;
     text-decoration-color: orangered;
+}
+@media screen and (max-width: 497px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 6%;
+        justify-content: space-between;
+
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size:  16px;
+    }
+}
+/* ===== TABLET ===== */
+@media (max-width: 900px){
+    .header-text h1{
+        font-size: 45px;
+    }
+
+    ul{
+        gap: 15px;
+    }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px){
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    ul{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-text{
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .header-text h1{
+        font-size: 35px;
+    }
+
+    .header-text button{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* ===== SMALL MOBILE ===== */
+@media (max-width: 480px){
+    .header-text h1{
+        font-size: 28px;
+    }
+
+    .imag-nav img{
+        width: 120px;
+    }
 }
 
