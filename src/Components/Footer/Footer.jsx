@@ -30,9 +30,9 @@ const Footer = () => {
                     to you inbox weekly.
                 </p>
                 <div className="submitt">
-                    <input type="email" name='Email' placeholder='Enter your email'/>
-                <br />
-                <button>Subscribe</button> 
+                    <input id = "input" type="email" name='Email' placeholder='Enter your email'/>
+                
+                    <button>Subscribe</button> 
                 </div>
                 
             </div>
