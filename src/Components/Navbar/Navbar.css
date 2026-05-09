@@ -21,7 +21,7 @@
         cursor: pointer;
     }
     .nav-menu{
-        display: flex;
+        display: none;
          flex-direction: column;
         position: absolute;
         top: 0;
@@ -35,8 +35,16 @@
         display: flex;
     }
 
+}
 
-    
+/* Desktop: hide the icon and show menu */
+@media (min-width: 769px) {
+  .menu-icon {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+  }
 }
 
 body{
