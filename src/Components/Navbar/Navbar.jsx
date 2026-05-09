@@ -4,7 +4,11 @@ import logo_svg from '../../assets/logo_dark.svg'
 
 const Navbar = () => {
 
-    const {menuOpen, setMenuOpen} = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () =>{
+        setMenuOpen(!menuOpen);
+    }
   return (
     <div className='navbar'>
         <nav>
@@ -13,9 +17,9 @@ const Navbar = () => {
             
         </div>
 
-        <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}> ☰ </div>
+        <button className="menu-icon" onClick={toggleMenu}> ☰ </button>
 
-        <ul>
+        <ul className= {menuOpen ? "nav-menu active" : "nav-menu"}>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Projects</a></li>
